@@ -13,5 +13,7 @@ class Program
         string kodeProduk = KodeProduk.GetKodeProduk(namaProduk);
         Console.WriteLine(kodeProduk);
         // commit 2
+        FanLaptop fanLaptop = new FanLaptop();
+        fanLaptop.setState(FanLaptop.State.Balanced);
     }
 }
