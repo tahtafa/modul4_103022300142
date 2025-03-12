@@ -12,5 +12,6 @@ class Program
         string namaProduk = Console.ReadLine();
         string kodeProduk = KodeProduk.GetKodeProduk(namaProduk);
         Console.WriteLine(kodeProduk);
+        //sesuatu
     }
 }
